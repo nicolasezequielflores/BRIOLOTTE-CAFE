@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briolotte</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header>
+        <button type="button" class="btn__menu"><img src="./img/botones/menu.svg" alt="menu" class="img__menu"></button>
+    </header>
+    <nav class="nav">
+        <div class="salir__container">
+            <button type="submit" class="salir"><img src="./img/botones/salir.svg" alt="salir" class="btn__salir"></button>    
+        </div>
+        <ul>
+            <a href="#" class="opc">Inicio</a>
+            <a href="#galeria" class="opc">Galería</a>
+            <a href="#res" class="opc">Reseñas</a>
+            <a href="#ubi" class="opc">Ubicación</a>
+        </ul>
+    </nav>
+    <main>
+        <section class="container__principal">
+            <div class="parte__uno">
+                <h1 class="titulo">BRIOLOTTE</h1>
+            </div>
+            <div class="parte__dos"></div>
+        </section>
+        <!--SECCION DE SOBRE NOSOTROS-->
+        <section class="container__secundario">
+       
+            <div class="about__container">
+                <p class="about__titulo">Maestros del Café</p>
+                <p class="about__texto">En Briolette Café, contamos con un equipo de maestros baristas que comparten nuestra devoción por la excelencia en cada preparación. Ya sea un espresso intenso, un capuchino sedoso, o una infusión delicada, cada bebida es elaborada con un equilibrio perfecto entre tradición y modernidad, asegurando una experiencia sublime en cada visita.</p>
+            </div>
+            <div class="about__container">
+                <p class="about__titulo">Un Capítulo en Tu Historia</p>
+                <p class="about__texto">Te invitamos a formar parte de nuestra historia, a vivir momentos inolvidables en un entorno donde el tiempo se detiene, y a descubrir lo que hace de Briolette Café un lugar tan especial y distintivo en la belleza natural de Bariloche.</p>
+            </div>
+        </section>
+        <!--SECCION DE GALERIA DE FOTOS-->
+        <section class="galeria__container" id="galeria">
+            <img src="img/galeria/elegante_postre_argentinos.jpg" alt="postre elegante" class="img">
+            <img src="img/galeria/elegante_postre.jpg" alt="postre elegante" class="img">
+            <div class="slogan">
+                <p class="slogan__text">Café con Alma, Inspirado en la Belleza Patagónica.</p>
+            </div>
+            <img src="img/galeria/interior.jpg" alt="interior de la cafeteria" class="img">
+            <img src="img/galeria/cafeteria_por_fuera.png" alt="exterior de la cafeteria" class="img">
+        </section>
+        <!--SECCION DE RESEÑAS-->
+        <section class="titulo__res__conatiner" id="reseñas">
+            <div class="tit__res__cont">
+            <p class="tit__res">Reseñas del Briolette Café</p>
+            <a href="#res" class="a__tit__res"><img src="./img/arrows/arrrow-down.svg" alt="flecha abajo" class="flecha__abajo"></a>
+            
+            </div> 
+        </section>
+        <!--SECCION DE RESEÑAS-->
+        <section class="res__container" id="res"> 
+            
+        </section>
+ 
+        <!--SECCION DE DIAS HORARIOS-->
+        <section class="horarios__cont">
+            <p class="tit__dias">Horarios de Apertura</p>
+            <p class="dias">Lunes a Viernes: 8:00 AM - 8:00 PM</p>
+            <p class="dias">Sábado y Domingo: 9:00 AM - 6:00 PM</p>
+        </section>
+        <!--SECCION DE UBICACION-->
+        <section class="ubicacion__container" id="ubi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96169.28093511255!2d-71.42231450807361!3d-41.128194188013246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1725407978025!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="ubicacion">
+                <p class="ubi">Mitre 1234, San Carlos de Bariloche, Río Negro, Argentina</p>
+                <p class="ubi__text">Teléfono: +54 294 123-4567</p>
+                <p class="ubi__text">Correo: contacto@briolettecafe.com</p>
+                <div class="redes__cont">
+                    <p class="ubi__text">Redes:</p>
+                    <a href="" class="red">Instagram</a>
+                    <a href="" class="red">Facebook</a>
+                    <a href="" class="red">X</a>
+                </div>
+            </div>
+         
+        </section>
+    </main>
+    <footer>
+        <div class="enlaces__cont">
+            <a href="#" class="enlaces">Inicio</a>
+            <p class="sep">|</p>
+            <a href="#galeria" class="enlaces">Galería</a>
+            <p class="sep">|</p>
+            <a href="#res" class="enlaces">Reseñas</a>
+            <p class="sep">|</p>
+            <a href="#ubi" class="enlaces">Ubicación</a>
+        </div>
+        <div class="copy__cont">
+            <div class="copy">© 2024 Briolette Café. Todos los derechos reservados.</div>
+        </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+    
+</body>
+</html>
